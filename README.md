@@ -32,7 +32,7 @@ cd dyt && yarn install
 
 Downloading videos from YouTube is against the YouTube Policy. The only videos that your allowed to download is your own which you can already do using YouTube Studio.
 
-## Other Information
+## 📖 Other Information
 
 Created by [Luiz Felipe Gonçalves](https://luizfelipe.dev). The awesome [`node-ytdl-core`](https://github.com/fent/node-ytdl-core#readme) was used to download the YouTube videos.  
 
