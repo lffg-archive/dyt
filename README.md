@@ -6,6 +6,8 @@ Download a list of YouTube videos! 🎬
 
 ## ℹ️ How to use
 
+<sup>[Node.js](https://nodejs.org/en/) is required; [Yarn](https://yarnpkg.com/lang/en/) is optional. You may use NPM if you don't want to use Yarn.</sup>
+
 Download this repository.
 
 ```shell
@@ -13,7 +15,10 @@ git clone https://github.com/lffg/dyt.git
 ```
 
 Move to its directory and install the dependencies.  
-<sup>[Node.js](https://nodejs.org/en/) is required; [Yarn](https://yarnpkg.com/lang/en/) is optional. You may use NPM if you don't want to use Yarn.</sup>
+
+```
+cd dyt && yarn install
+```
 
 Add the video URLs that you want to download to the `list.txt` file, at the root of the project.
 
@@ -21,11 +26,6 @@ Start the download process:
 
 ```shell
 yarn start
-```
-
-
-```
-cd dyt && yarn install
 ```
 
 ## ⚠️ Disclaimer
