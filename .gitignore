@@ -1,0 +1,4 @@
+node_modules
+__ignore__*
+out/*
+!out/.gitkeep

@@ -1,0 +1,14 @@
+{
+  "name": "dyt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "get-youtube-id": "^1.0.1",
+    "ytdl-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-lffg": "^9.0.0"
+  }
+}
