@@ -5,16 +5,13 @@ const { parseList } = require('./parse-list');
 async function main() {
   const list = await parseList(LIST_PATH);
 
-  const start = Date.now();
+  const promises = list.map((id) =>
+    download(id, `${id}.mp4`).then(() =>
+      console.log(`Downloaded "${id}" video.`)
+    )
+  );
 
-  for (const id of list) {
-    await download(id, `${id}.mp4`);
-  }
-
-  // const promises = list.map((id) => download(id, `${id}.mp4`));
-  // await Promise.all(promises);
-
-  console.log(Date.now() - start);
+  await Promise.all(promises);
 }
 
 main().then(() => process.exit(0));
