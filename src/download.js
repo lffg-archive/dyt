@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const readline = require('readline');
 const ytdl = require('ytdl-core');
 const { OUT_DIR } = require('./config');
 
